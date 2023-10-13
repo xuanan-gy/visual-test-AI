@@ -57,71 +57,6 @@ WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make a
 // Check comment with TestOps Vision
 WebUI.takeElementScreenshotAsCheckpoint('Comment', CommentObject)
 
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 1')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 1', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 2')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 2', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 3')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 3', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 4')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 4', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 5')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 5', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 6')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 6', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 7')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 7', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 8')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 8', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 9')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 9', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 10')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 10', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 11')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 11', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 12')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 12', CommentObject)
-
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible. 13')
-
-// Check comment with TestOps Vision
-WebUI.takeElementScreenshotAsCheckpoint('Comment 13', CommentObject)
-
 WebUI.comment('When he fills in valid information in Appointment page')
 
 // Check data with TestOps Vision
@@ -131,6 +66,55 @@ WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
 
 // Check Full Appointment with TestOps Vision
 WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment')
+
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+// Check Full Appointment with TestOps Vision
+WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 2')
+
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+// Check Full Appointment with TestOps Vision
+WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 3')
+
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+// Check Full Appointment with TestOps Vision
+WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 4')
+
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+// Check Full Appointment with TestOps Vision
+WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 5')
+
+
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+// Check Full Appointment with TestOps Vision
+WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 6')
+
+
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+// Check Full Appointment with TestOps Vision
+WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 7')
+
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+// Check Full Appointment with TestOps Vision
+WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 8')
+
+
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+// Check Full Appointment with TestOps Vision
+WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 9')
+
+
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+// Check Full Appointment with TestOps Vision
+WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 10')
 
 WebUI.verifyTextPresent('Appointment Confirmation', false)
 
