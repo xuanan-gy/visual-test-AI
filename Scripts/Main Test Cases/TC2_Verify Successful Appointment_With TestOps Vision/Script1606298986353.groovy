@@ -69,54 +69,25 @@ WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment')
 
 WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
 
-// Check Full Appointment with TestOps Vision
+WebUI.verifyTextPresent('Appointment Confirmation', false)
+
 WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 2')
 
-WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
-
-// Check Full Appointment with TestOps Vision
 WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 3')
 
-WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
-
-// Check Full Appointment with TestOps Vision
 WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 4')
 
-WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
-
-// Check Full Appointment with TestOps Vision
 WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 5')
 
-
-WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
-
-// Check Full Appointment with TestOps Vision
 WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 6')
 
-
-WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
-
-// Check Full Appointment with TestOps Vision
 WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 7')
 
-WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
-
-// Check Full Appointment with TestOps Vision
 WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 8')
 
-
-WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
-
-// Check Full Appointment with TestOps Vision
 WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 9')
 
-
-WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
-
-// Check Full Appointment with TestOps Vision
 WebUI.takeFullPageScreenshotAsCheckpoint('Review Appoitment 10')
-
-WebUI.verifyTextPresent('Appointment Confirmation', false)
 
 WebUI.comment('Then he should be able to book a new appointment')
 
