@@ -17,6 +17,42 @@ And Appointment page is displayed
 When he fills in valid information in Appointment page
 Then he should be able to book a new appointment</comment>
    <testCaseGuid>c880ce98-5804-476f-88e9-c34919fccc5d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2dec500-1cc2-4ada-8aac-e73448eec660</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ea6e44e-ce39-405d-9d1d-3ab35a178d43</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e05bec37-8dfc-4de2-978a-965e4f5538dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58c15445-d45d-46e6-ac70-c7adbbd2cc87</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eacdca82-eacc-4d25-b197-4c041b388673</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>531ffc7f-7d0a-4026-ab99-e2e68882bc87</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Vision_Common/Facility_Combobox')</defaultValue>
       <description></description>
